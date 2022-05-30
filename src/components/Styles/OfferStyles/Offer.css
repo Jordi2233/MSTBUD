@@ -1,0 +1,21 @@
+.OfferContainer {
+    grid-template-columns: 100%;
+    display: grid;
+    grid-template-rows: 600px 60px auto;
+    justify-content: center;
+    color: #fff;
+    row-gap: 5vh;
+}
+
+.Switcher {
+    background-color: orangered;
+    height: 600px;
+}
+
+.FullOffer {
+    background-color: blueviolet;
+    height: 60px;
+}
+
+
+

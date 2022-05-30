@@ -1,0 +1,12 @@
+
+.ScrollIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.ScrollContainer {
+    grid-column: 1/-1;
+    text-align: center;
+    height: 50px;
+    color: hsl(39, 74%, 20%);
+}

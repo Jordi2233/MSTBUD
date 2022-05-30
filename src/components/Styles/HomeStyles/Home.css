@@ -1,0 +1,31 @@
+.Home {
+    margin-top: 3rem;
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+/* Phone view */
+@media screen and (max-width: 1200px) {
+    .GridHome {
+        display: grid;
+        grid-template-columns: 84vw;
+        grid-row: 2;
+        row-gap: 8vw;
+    }
+}
+
+
+/* Computer view */
+
+@media screen and (min-width: 1200px) {
+
+    .GridHome {
+        display: grid;
+        grid-template-columns: 33vw 54vw;
+        grid-row: 2;
+        column-gap: 2vw;
+        row-gap: 2rem;
+    }
+
+}

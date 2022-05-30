@@ -1,0 +1,69 @@
+.Navbar a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+
+.Navbar {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* Phone view */
+
+@media screen and (max-width: 1200px) {
+
+    .GridNav {
+        display: grid;
+        grid-template-columns: 35vw 53vw;
+
+    }
+
+
+    .NavList {
+        display: grid;
+        justify-content: end;
+        text-align: center;
+        align-items: center;
+    }
+
+    .NavBtn {
+        background-color: Transparent;
+        font-size: 8vw;
+        color: hsl(0, 0%, 100%);
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+}
+
+/* Computer view */
+
+@media screen and (min-width: 1200px) {
+    .GridNav {
+        display: grid;
+        grid-template-columns: 180px 81vw;
+        justify-content: start;
+    }
+
+
+    .LogoIMG {
+        height: 180px;
+        width: 180px;
+    }
+
+    .NavLinks {
+        display: grid;
+        grid-template-columns: repeat(4, 15%);
+        text-align: center;
+        align-items: center;
+        justify-content: end;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 0;
+
+    }
+
+}

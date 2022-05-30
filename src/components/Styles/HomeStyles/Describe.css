@@ -1,0 +1,61 @@
+.HomeDescriptionGrid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+
+/* Computer view */
+
+@media screen and (min-width: 1200px) {
+
+    .HomeDescriptionGrid {
+        position: relative;
+        top: 8vh;
+    }
+
+    .HomeDescription h1 {
+        font-size: 3rem;
+
+    }
+
+
+    .HomeDescription p {
+        font-size: 1.2rem;
+        line-height: 1.5vw;
+
+    }
+
+    .HomeDescription ul li  {
+        font-size: 1em;
+        font-weight: 100;
+        line-height: 1.5vw;
+    }
+
+}
+
+/* Phone view */
+
+@media screen and (max-width: 1200px) {
+
+    .HomeDescription H1 {
+        /* text-align: center; */
+        font-size: 8vw;
+        width:  fit-content;
+    }
+
+    .HomeDescription p  {
+        line-height: 3vw;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .HomeDescription ul li {
+        line-height: 3vw;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    
+    
+}
