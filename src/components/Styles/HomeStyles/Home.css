@@ -22,8 +22,8 @@
 
     .GridHome {
         display: grid;
-        grid-template-columns: 33vw 54vw;
-        grid-row: 2;
+        grid-template-columns: 33vw 55vw;
+        grid-row: 3;
         column-gap: 2vw;
         row-gap: 2rem;
     }

@@ -12,25 +12,24 @@
 
     .HomeDescriptionGrid {
         position: relative;
-        top: 8vh;
+        top: 2vw;
     }
 
     .HomeDescription h1 {
         font-size: 3rem;
-
     }
 
 
     .HomeDescription p {
-        font-size: 1.2rem;
-        line-height: 1.5vw;
+        font-size: 1.5rem;
+        line-height: 1.5em;
 
     }
 
     .HomeDescription ul li  {
-        font-size: 1em;
+        font-size: 1.1vw;
         font-weight: 100;
-        line-height: 1.5vw;
+        line-height: 1.2em;
     }
 
 }

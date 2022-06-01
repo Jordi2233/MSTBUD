@@ -1,19 +1,16 @@
 import React from "react";
 import Scroll from "../Scroll";
-import Switcher from "./Switcher";
-import FullOffer from "./FullOffer";
+import Menu from "./Menu";
 import "../Styles/OfferStyles/Offer.css"
 
 const Offer = () => {
 return (
-<div className="OfferContainer">
-    <div className="Switcher">Switcher</div>
-    <div className="FullOffer">FullOffer</div>
-    {/*
-    <Switcher /> */}
-    {/*
-    <FullOffer /> */}
+<div className="OfferContainer" id="Offer">
+
+    <Menu /> 
+
     <Scroll />
+
 </div>
 )
 }

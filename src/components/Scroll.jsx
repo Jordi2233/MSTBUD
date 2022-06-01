@@ -3,12 +3,17 @@ import "./Styles/Scroll.css"
 
 const Scroll = () => {
 
-    return (
-        <div className="ScrollContainer">
-    <p>Scroll Down</p>
-    <img src={require("./Pictures/HomePhotos/scroll-bar.png")} alt="ScrollIcon" className="ScrollIcon"/>
-        </div>
-    )
+return (
+    <div className="ScrollGrid">
+<div className='scrolldown'>
+    <div className="chevrons">
+        <div className='chevrondown'></div>
+        <div className='chevrondown'></div>
+    </div>
+</div>
+    </div>
+
+)
 
 }
 

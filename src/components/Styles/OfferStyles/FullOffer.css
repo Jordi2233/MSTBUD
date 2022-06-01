@@ -1,0 +1,10 @@
+.FullOffer {
+    /* background-color: aqua; */
+    display: grid;
+    border-radius: 10px;
+    text-align: center;
+    /* border: 2px solid white; */
+    /* color: white; */
+    align-items: center;
+    justify-content: center;
+}

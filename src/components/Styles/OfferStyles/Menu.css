@@ -1,0 +1,101 @@
+
+.MenuGrid {
+  display: grid;
+  grid-template-columns: 90vw;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  row-gap: 8vh;
+  align-items: center;
+}
+
+.SwitcherTitle {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.Switcher {
+  display: grid;
+  grid-template-columns: 15vw 20vw auto;
+  column-gap: 4vw;
+}
+
+.SwitcherDescribe {
+  display: grid;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+.SwitcherDescribe h3 {
+  font-size: 1.5vw;
+  margin-bottom: 1em;
+}
+
+/* Photos */
+
+.Switcher img {
+  border-radius: 5px;
+  width: 47vw;
+}
+
+.MenuPhotos {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
+
+/* Buttons */
+
+.SwitcherButtons {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(5, auto);
+  row-gap: 3vh;
+}
+
+
+.btn41-43 {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-42 {
+  border: 2px solid rgb(255, 255, 255);
+  z-index: 1;
+  color: white;
+}
+
+.btn-42:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+.btn-42:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn-42:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.btn-42:active {
+  top: 2px;
+}

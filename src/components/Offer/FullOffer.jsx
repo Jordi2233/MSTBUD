@@ -1,9 +1,10 @@
 import React from "react";
+import "../Styles/OfferStyles/FullOffer.css"
 
 const FullOffer = () => {
     return(
-        <div>
-            
+        <div className="FullOffer FullOfferGrid">
+            FullOffer
         </div>
     )
 }
