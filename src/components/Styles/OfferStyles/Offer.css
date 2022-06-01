@@ -1,6 +1,9 @@
-.OfferContainer {
-    display: grid;
-    grid-template-rows: 70vh 2vh;
-    grid-template-columns: 90vw;
-    row-gap: 15vh;
+
+@media screen and (min-width: 1200px) {
+    .OfferContainer {
+        display: grid;
+        grid-template-rows: 70vh 2vh;
+        grid-template-columns: 90vw;
+        row-gap: 15vh;
+    }
 }

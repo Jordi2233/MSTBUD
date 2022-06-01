@@ -1,7 +1,23 @@
-.HomeSection {
-    margin-bottom: 4vw;
+
+@media screen and (min-width: 1200px) {
+    .HomeSection {
+        margin-bottom: 4vw;
+    }
+    
+    .OfferSection {
+        margin-bottom: 14vw;
+    }
+    
+    
 }
 
-/* .OfferSection {
-    margin: 10vw 0;
-} */
+
+@media screen and (max-width: 1200px) {
+    .HomeSection {
+        margin-bottom: 10vw;
+    }
+    .OfferSection {
+        margin-bottom: 10vw;
+    }
+    
+}

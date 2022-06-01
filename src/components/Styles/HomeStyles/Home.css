@@ -25,7 +25,7 @@
         grid-template-columns: 33vw 55vw;
         grid-row: 3;
         column-gap: 2vw;
-        row-gap: 2rem;
+        row-gap: 3rem;
     }
 
 }

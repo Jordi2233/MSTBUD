@@ -16,8 +16,8 @@ return (
     { size.width > 1200 && <div className="NavLinks">
         <a href="#Home">Start</a>
         <a href="#Offer">Usługi</a>
-        <a href="#Galeria">Galeria</a>
-        <a href="#Kontakt">Kontakt</a>
+        <a href="#Gallery">Galeria</a>
+        <a href="#Contacts">Kontakt</a>
     </div>}
     {size.width < 1200 && <div className="NavList">
         <button className="NavBtn">

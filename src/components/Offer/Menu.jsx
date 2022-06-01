@@ -4,7 +4,6 @@ import "../Styles/OfferStyles/Menu.css"
 import contents from "./content";
 import Button from "./Button";
 
-
 const Menu = () => {
 const [element, setElement] = useState(0)
 
@@ -12,6 +11,7 @@ const contentChange = (event) => {
 const btnName = event.target.name;
 setElement(btnName);
 }
+
 
 return (
 <div className="MenuGrid">

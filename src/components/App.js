@@ -3,6 +3,7 @@ import Navbar from './Home/Navbar';
 import Home from './Home/Home';
 import Offer from './Offer/Offer';
 import "./Styles/App.css"
+import Gallery from './Gallery';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
     </div>
       <div className="OfferSection">
       <Offer />
+      </div>
+      <div className="Gallery">
+        <Gallery />
       </div>
     </div>
   );
