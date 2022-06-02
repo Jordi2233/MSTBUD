@@ -1,22 +1,25 @@
 
 @media screen and (min-width: 1200px) {
-    .HomeSection {
+    #Home {
         margin-bottom: 4vw;
     }
     
-    .OfferSection {
+    #Offer {
         margin-bottom: 14vw;
     }
     
+    #Gallery {
+        margin-bottom: 10vw;
+    }
     
 }
 
 
 @media screen and (max-width: 1200px) {
-    .HomeSection {
+    #Home {
         margin-bottom: 10vw;
     }
-    .OfferSection {
+    #Offer {
         margin-bottom: 10vw;
     }
     

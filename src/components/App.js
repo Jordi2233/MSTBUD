@@ -4,19 +4,23 @@ import Home from './Home/Home';
 import Offer from './Offer/Offer';
 import "./Styles/App.css"
 import Gallery from './Gallery';
+import Footer from './Footer';
 
 function App() {
   return (
     <div>
-    <div className="HomeSection">
+    <div id='Home'>
     <Navbar/>
       <Home />
     </div>
-      <div className="OfferSection">
+      <div id='Offer'>
       <Offer />
       </div>
-      <div className="Gallery">
+      <div id='Gallery'>
         <Gallery />
+      </div>
+      <div id='Contacts'>
+      <Footer />
       </div>
     </div>
   );
