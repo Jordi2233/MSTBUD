@@ -3,6 +3,7 @@ import "./Styles/Footer.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons'
 import useWindowSize from "./ScreenResolution";
+import 'aos/dist/aos.css';
 
 const Footer = () => {
 
@@ -13,7 +14,16 @@ const size = useWindowSize().windowSize;
 return(
 <footer class="footer-distributed" id="Contacts">
 
-    <div class="footer-left">
+    <div class="footer-left" 
+    data-aos="fade-right"
+    data-aos-offset="10"
+    data-aos-delay="100"
+    data-aos-duration="800"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="bottom-bottom"
+    >
 
         <img src={require("./Pictures/HomePhotos/Logo-p.png")} alt="MSTBUD" />
 
@@ -32,7 +42,16 @@ return(
 
     </div>
 
-    <div class="footer-right">
+    <div class="footer-right"
+  data-aos="fade-left"
+    data-aos-offset="10"
+    data-aos-delay="100"
+    data-aos-duration="800"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="bottom-bottom"
+    >
         <div className="footer-contacts">
             <p>Skontaktuj się z nami:</p> <br />
             <p>telefon: +48 537 137 000</p> <br />

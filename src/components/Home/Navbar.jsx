@@ -1,24 +1,29 @@
 import React from "react";
-import { useState } from "react/cjs/react.production.min";
 import useWindowSize from "../ScreenResolution";
 import "../Styles/HomeStyles//Navbar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Navbar = () => {
 
 const size = useWindowSize().windowSize;
 
-const menuToggle = () => {
-console.log("Clicked")
-}
 
+AOS.init();
 return (
-<div className="Navbar GridNav">
-    <div className="Logo">
+    
+<div className="Navbar GridNav" data-aos="fade-down"
+    data-aos-offset="100"
+    data-aos-delay="50"
+    data-aos-duration="800"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
+    <div className="Logo" >
         <img className="LogoIMG" src={require("../Pictures/HomePhotos/Logo-p.png")} alt="MSTBUD" />
     </div>
-    { size.width > 1200 && <div className="NavLinks">
+    { size.width > 1200 && <div className="NavLinks" >
         <a href="#Home">Start</a>
         <a href="#Offer">Usługi</a>
         <a href="#Gallery">Galeria</a>

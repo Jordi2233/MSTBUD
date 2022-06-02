@@ -4,6 +4,7 @@ import Menu from "./Menu";
 import "../Styles/OfferStyles/Offer.css"
 import useWindowSize from "../ScreenResolution";
 
+
 const Offer = () => {
 
     const size = useWindowSize().windowSize;

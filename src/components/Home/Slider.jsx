@@ -2,15 +2,26 @@ import React from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import "@splidejs/splide/dist/css/themes/splide-default.min.css"
 import "../Styles/HomeStyles//Border.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 
 
 const Slider = (props) => {
-
+AOS.init();
 
 return (
 <Splide aria-label="My Favorite Images" options={ { perPage: props.perPage, type: 'loop' , autoplay: true, interval:
-  2000, perMove: 1, drag: 'free' , focus: 'center' , pauseOnHover: 'true' , } }>
+  2000, perMove: 1, drag: 'free' , focus: 'center' , pauseOnHover: 'true' , } }
+  data-aos="fade-left"
+    data-aos-offset="1"
+    data-aos-delay="800"
+    data-aos-duration="800"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-bottom">
   <SplideSlide>
     <img className="Border" src={require("../Pictures/HomePhotos/SliderPhotos/living-room-400_550.png")} alt="img" />
   </SplideSlide>
