@@ -1,9 +1,13 @@
 import React from "react";
 import "./Styles/Gallery.css"
 import Scroll from "./Scroll";
+import useWindowSize from "./ScreenResolution";
 
 
 const Gallery = () => {
+
+    const size = useWindowSize().windowSize;
+
     return (
 <div id="Gallery">
 <div id="gallery">
@@ -87,9 +91,10 @@ const Gallery = () => {
     </div>
 </div>
 
-
+{
+    size.width > 1200 &&
 <Scroll className="ScrollGallery"/>
-
+}
 </div>
   
     )
