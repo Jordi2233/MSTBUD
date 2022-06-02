@@ -15,111 +15,123 @@ return (
     <div id="gallery">
         <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=512" /><a
-                href="#lightbox-1"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/1.jpg")} />
+            <a href="#lightbox-1"></a></div>
         <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=513" /><a
-                href="#lightbox-2"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/2.jpg")} />
+            <a href="#lightbox-2"></a></div>
         <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=514" /><a
-                href="#lightbox-3"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/3.jpg")} />
+            <a href="#lightbox-3"></a></div>
         <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=515" /><a
-                href="#lightbox-4"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/4.jpg")} />
+            <a href="#lightbox-4"></a></div>
         <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=516" /><a
-                href="#lightbox-5"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/5.jpg")} />
+            <a href="#lightbox-5"></a></div>
         <div data-aos="fade-down" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=517" /><a
-                href="#lightbox-6"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/6.jpg")} />
+            <a href="#lightbox-6"></a></div>
         <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=518" /><a
-                href="#lightbox-7"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/7.jpg")} />
+            <a href="#lightbox-7"></a></div>
         <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=519" /><a
-                href="#lightbox-8"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/8.jpg")} />
+            <a href="#lightbox-8"></a></div>
         <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=520" /><a
-                href="#lightbox-9"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/9.jpg")} />
+            <a href="#lightbox-9"></a></div>
         <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=521" /><a
-                href="#lightbox-10"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/10.jpg")} />
+            <a href="#lightbox-10"></a></div>
         <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=522" /><a
-                href="#lightbox-11"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/11.jpg")} />
+            <a href="#lightbox-11"></a></div>
         <div data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="800"
             data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
-            data-aos-anchor-placement="top-bottom"><img src="https://picsum.photos/600/600/?image=523" /><a
-                href="#lightbox-12"></a></div>
+            data-aos-anchor-placement="top-bottom">
+            <img src={require("./Pictures/Gallery/12.jpg")} />
+            <a href="#lightbox-12"></a></div>
 
     </div>
     <div class="lightbox" id="lightbox-1">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=512" />
+        <div class="content"><img src={require("./Pictures/Gallery/1.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-2">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=513" />
+        <div class="content"><img src={require("./Pictures/Gallery/2.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-3">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=514" />
+        <div class="content"><img src={require("./Pictures/Gallery/3.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-4">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=515" />
+        <div class="content"><img src={require("./Pictures/Gallery/4.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-5">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=516" />
+        <div class="content"><img src={require("./Pictures/Gallery/5.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-6">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=517" />
+        <div class="content"><img src={require("./Pictures/Gallery/6.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-7">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=518" />
+        <div class="content"><img src={require("./Pictures/Gallery/7.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-8">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=519" />
+        <div class="content"><img src={require("./Pictures/Gallery/8.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-9">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=520" />
+        <div class="content"><img src={require("./Pictures/Gallery/9.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-10">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=521" />
+        <div class="content"><img src={require("./Pictures/Gallery/10.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-11">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=522" />
+        <div class="content"><img src={require("./Pictures/Gallery/11.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>
     <div class="lightbox" id="lightbox-12">
-        <div class="content"><img src="https://picsum.photos/1920/1080/?image=523" />
+        <div class="content"><img src={require("./Pictures/Gallery/12.jpg")} />
             <a class="close" href="#gallery"></a>
         </div>
     </div>

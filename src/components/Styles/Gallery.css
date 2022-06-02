@@ -3,7 +3,7 @@
     height: calc(100vh - 10px);
     grid-template: repeat(6, 1fr) / repeat(6, 1fr);
     grid-gap: 0.5em;
-    margin-bottom: -4vw;
+    margin-bottom: -5vw;
 }
 
 @media screen and (max-width: 1200px) {
