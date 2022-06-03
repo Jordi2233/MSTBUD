@@ -26,7 +26,7 @@
 
     }
 
-    .HomeDescription ul li  {
+    .HomeDescription ul li {
         font-size: 1.1em;
         font-weight: 100;
         line-height: 1.2em;
@@ -41,10 +41,10 @@
     .HomeDescription H1 {
         /* text-align: center; */
         font-size: 8vw;
-        width:  fit-content;
+        width: fit-content;
     }
 
-    .HomeDescription p  {
+    .HomeDescription p {
         line-height: 3vw;
         font-size: 16px;
         font-weight: 100;
@@ -55,6 +55,6 @@
         font-size: 14px;
         font-weight: 100;
     }
-    
-    
+
+
 }

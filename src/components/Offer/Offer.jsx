@@ -7,13 +7,19 @@ import useWindowSize from "../ScreenResolution";
 
 const Offer = () => {
 
-    const size = useWindowSize().windowSize;
+const size = useWindowSize().windowSize;
+
+
 return (
+
 <div className="OfferContainer" id="Offer">
 
-    <Menu /> 
+    <Menu />
 
-    { size.width > 1200 && <Scroll />}
+
+    { size.width > 1200 &&
+    <Scroll />}
+
 
 </div>
 )

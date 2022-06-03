@@ -1,4 +1,7 @@
-import { useState, useEffect } from "react";
+import {
+    useState,
+    useEffect
+} from "react";
 
 // Hook
 const useWindowSize = () => {
@@ -19,11 +22,11 @@ const useWindowSize = () => {
                     width: window.innerWidth,
                     height: window.innerHeight
                 });
-                if(window.innerWidth > 1900) {
+                if (window.innerWidth > 1900) {
                     setSliderSize("2.5");
                 } else if (window.innerWidth < 1900 && window.innerWidth > 1500) {
                     setSliderSize("2");
-                } else if (window.innerWidth < 1500 && window.innerWidth > 1200){
+                } else if (window.innerWidth < 1500 && window.innerWidth > 1200) {
                     setSliderSize("1.5")
                 } else {
                     setSliderSize("2");
@@ -40,7 +43,10 @@ const useWindowSize = () => {
             return () => window.removeEventListener("resize", handleResize);
         }
     }, []); // Empty array ensures that effect is only run on mount
-    return {windowSize, SliderSize};
+    return {
+        windowSize,
+        SliderSize
+    };
 };
 
 export default useWindowSize;

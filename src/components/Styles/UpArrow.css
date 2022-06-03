@@ -1,0 +1,22 @@
+.UpArrowTag {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.UpArrow {
+    font-size: 1vw;
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .UpArrow {
+        font-size: 3vw;
+
+    }
+}

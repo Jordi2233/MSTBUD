@@ -1,17 +1,16 @@
-
 @media screen and (min-width: 1200px) {
     #Home {
         margin-bottom: 4vw;
     }
-    
+
     #Offer {
         margin-bottom: 14vw;
     }
-    
+
     #Gallery {
         margin-bottom: 10vw;
     }
-    
+
 }
 
 
@@ -19,8 +18,9 @@
     #Home {
         margin-bottom: 10vw;
     }
+
     #Offer {
         margin-bottom: 10vw;
     }
-    
+
 }

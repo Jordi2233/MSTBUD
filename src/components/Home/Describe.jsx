@@ -5,16 +5,10 @@ import 'aos/dist/aos.css';
 
 const Describe = () => {
 
-    AOS.init();
+AOS.init();
 return (
-<div className="HomeDescription" data-aos="fade-right"
-    data-aos-offset="10"
-    data-aos-delay="800"
-    data-aos-duration="800"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
-    data-aos-anchor-placement="top-bottom">
+<div className="HomeDescription" data-aos="fade-right" data-aos-offset="10" data-aos-delay="800" data-aos-duration="800"
+    data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-bottom">
 
     <div className="HomeDescriptionGrid">
         <h1>Modne & <br />Eleganckie Wnętrza!</h1>
