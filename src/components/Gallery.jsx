@@ -25,15 +25,8 @@ return (
     data-aos-offset="1" data-aos-delay="800" data-aos-duration="800" data-aos-easing="ease-in-out"
     data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-bottom">
 
-    <SplideSlide>
-      <img className="Border" src={require("./Pictures/Gallery/10.jpg")} alt="img" />
-    </SplideSlide>
-    <SplideSlide>
-      <img className="Border" src={require("./Pictures/Gallery/12.jpg")} alt="img" />
-    </SplideSlide>
-    <SplideSlide>
-      <img className="Border" src={require("./Pictures/Gallery/11.jpg")} alt="img" />
-    </SplideSlide>
+
+
     <SplideSlide>
       <img className="Border" src={require("./Pictures/Gallery/4.jpg")} alt="img" />
     </SplideSlide>
@@ -42,15 +35,6 @@ return (
     </SplideSlide>
     <SplideSlide>
       <img className="Border" src={require("./Pictures/Gallery/6.jpg")} alt="img" />
-    </SplideSlide>
-    <SplideSlide>
-      <img className="Border" src={require("./Pictures/Gallery/7.jpg")} alt="img" />
-    </SplideSlide>
-    <SplideSlide>
-      <img className="Border" src={require("./Pictures/Gallery/8.jpg")} alt="img" />
-    </SplideSlide>
-    <SplideSlide>
-      <img className="Border" src={require("./Pictures/Gallery/9.jpg")} alt="img" />
     </SplideSlide>
     <SplideSlide>
       <img className="Border" src={require("./Pictures/Gallery/3.jpg")} alt="img" />
