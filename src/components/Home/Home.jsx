@@ -18,7 +18,11 @@ const size = useWindowSize();
 return(
 <div className="Home GridHome">
     <Describe />
+    {
+        size.windowSize.width > 1200 &&
+
     <Slider perPage={size.SliderSize} />
+    }
     {size.windowSize.width > 1200 &&
     <Scroll />}
 </div>

@@ -184,8 +184,13 @@ section {
 
     .footer-links {
         display: grid;
-        grid-template-columns: repeat(5, 21vw);
-        font-size: 1.2em;
+        grid-template-columns: repeat(5, 15vw);
+        font-size: 2em;
+        justify-content: center;
+    }
+
+    .FbIcon {
+        font-size: 3em;
     }
 
     .footer-distributed {
